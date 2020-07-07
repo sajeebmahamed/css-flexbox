@@ -1,0 +1,36 @@
+.container {
+    width: 1140px;
+    box-sizing: border-box;
+    margin: auto;
+    font-size: 1.5rem;
+}
+.flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    min-height: 500px;
+}
+
+
+.flex .flex-1 {
+    background-color: tomato;
+    align-self: flex-end;
+    flex-grow: 1;
+}
+.flex .flex-2 {
+    background-color: salmon;
+    flex-basis: 33.33%;
+    max-width: 33.33%;
+}
+.flex .flex-3 {
+    background-color: aquamarine;
+}
+.flex .flex-4 {
+    background-color: firebrick;
+}
+.flex div {
+    padding: 10px;
+    width: 25%;
+    background-color: blueviolet;
+}
